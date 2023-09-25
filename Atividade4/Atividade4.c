@@ -33,7 +33,6 @@ if (nivel == 'a'){
 
 
 
-
 /*a = a * salario;
 a = a + salario;
 
