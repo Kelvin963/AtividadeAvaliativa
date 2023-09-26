@@ -13,20 +13,20 @@ scanf("%d", &numero);
 
 for (i = 0; i < 29; i++){
     if(jogosolimpicos[i] == numero){
-        printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d\n", numero);
+        printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", numero);
         pesqevento = 1;
     }
 }
 
 for (i = 0; i < 21; i++){
     if (copadomundo[i] == numero){
-        printf("A Copa do Mundo de Futebol ocorreu no ano de %d\n", numero);
+        printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", numero);
         pesqevento = 1;
         break;
     }
 }
     if(pesqevento == 0){
-        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d\n", numero);
+        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", numero);
     }
 
 

@@ -4,16 +4,18 @@ int main (){
 
 int alg;
 int numero;
+int numeroar;     //var para guardar o valor inicial do numero usado
 int result = 0;  // iniciar um valor
 
 printf("Insira um numero:");
 scanf("%d", &numero);
+numeroar = numero;
 
 if (numero % 2 == 0){
-    printf("O numero eh par\n");
+    printf("%d eh par\n", numeroar);
                                                
 }else {
-    printf("O numero eh impar\n");
+    printf("%d eh impar\n", numeroar);
 }
 
 while (numero !=0 ){
@@ -22,7 +24,8 @@ while (numero !=0 ){
     numero = numero / 10;
 
 }
-printf ("A soma dos algarismos resulta em %d", result);
+    
+printf ("A soma dos algarismos de %d eh %d", numeroar, result);
 
 
 return 0;
