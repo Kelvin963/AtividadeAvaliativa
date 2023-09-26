@@ -29,29 +29,5 @@ if (nivel == 'a'){
 }
 
 
-
-
-
-
-/*a = a * salario;
-a = a + salario;
-
-b = b * salario;
-b = b + salario;
-                        --testes 
-c = c * salario;
-c = c + salario;
-
-
-printf("Salario com aumento de 5 por cento:R$%.2lf\n", a);
-printf("Salario com aumento de 7 por cento:R$%.2lf\n", b);
-printf("Salario com aumento de 8 por cento:R$%.2lf\n", c);
-*/
-
-
-
-
-
-
 return 0;
 }
