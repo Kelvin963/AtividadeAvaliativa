@@ -31,15 +31,17 @@ int main (){
         printf("Invalido");
     }
 
-
-        if(mavalor % mevalor == 0){         //codigo numero a1*
-            printf("%d eh multiplo de %d", mavalor, mevalor);
+    
+        if((mevalor == 0) || (mavalor % mevalor != 0)){         //codigo numero a1*
+        
+            printf("%d nao eh multiplo de %d", mavalor, mevalor);
         
         }else{
-            printf("%d nao eh multiplo de %d", mavalor, mevalor);
+            
+            printf("%d eh multiplo de %d", mavalor, mevalor);
         }
 
-
+        
 
     
 
