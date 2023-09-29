@@ -12,6 +12,7 @@ scanf(" %c", &nivel);
 
 scanf ("%lf", &salario);
 
+
 if (nivel == 'a'){
     printf("R$ %.2lf", salario * a + salario);
 
