@@ -4,10 +4,9 @@ int main (){
 
 int alg;
 int numero;
-int numeroar;     //var para guardar o valor inicial do numero usado
-int result = 0;  // iniciar um valor
+int numeroar;
+int result = 0;
 
-printf("Insira um numero:");
 scanf("%d", &numero);
 numeroar = numero;
 

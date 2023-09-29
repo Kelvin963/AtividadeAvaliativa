@@ -7,19 +7,19 @@ int main (){
     int mavalor;
     int mevalor;
 
-    printf("Insira o primeiro valor: ");
+ 
     scanf("%d", &valor1);
     
-    printf("Insira o segundo valor: ");
+
     scanf("%d", &valor2);
 
     if(valor1 == valor2){
         printf("Os valores lidos sao iguais\n");
-        exit(0); // não faz mais nada se os valores forem iguais
+        exit(0);
 
     }else if(valor1 > valor2){
         printf("%d eh maior que %d\n", valor1, valor2);
-        mavalor = valor1;     //definir o maior e menor valor para sequenciar o codigo numero a1*
+        mavalor = valor1;
         mevalor = valor2;
 
     }else if(valor1 < valor2){
@@ -32,7 +32,7 @@ int main (){
     }
 
     
-        if((mevalor == 0) || (mavalor % mevalor != 0)){         //codigo numero a1*
+        if((mevalor == 0) || (mavalor % mevalor != 0)){
         
             printf("%d nao eh multiplo de %d", mavalor, mevalor);
         
